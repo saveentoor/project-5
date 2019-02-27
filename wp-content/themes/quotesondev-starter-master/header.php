@@ -27,7 +27,7 @@
 				</div><!-- .site-branding -->
 
 				<div class="logo-img">
-				<img src="wp-content/themes/quotesondev-starter-master/qod-logo.svg" alt="quotes on dev logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/qod-logo.svg" alt="quotes on dev logo">
 				</div>
 				
 			</header><!-- #masthead -->
