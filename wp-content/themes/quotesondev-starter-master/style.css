@@ -456,7 +456,7 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
-    display: none;
+    display: block;
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -621,7 +621,20 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+.button_dark {
+  background: black;
+  color: #0c0;
+  border: 2px solid #0c0;
+  font-weight: 700;
+  line-height: 1;
+  padding: .75rem 2.25rem;
+  text-shadow: none; }
+
+.site-content {
+  font-family: 'Exo-medium';
+  font-size: 1.25rem; }
+
 body {
-  background: #222222;
+  background: #222;
   background-image: url("../../project-05/assets/qod-logo.svg");
   color: white; }

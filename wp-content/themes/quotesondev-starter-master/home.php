@@ -26,7 +26,7 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content' ); ?>
 
 			<?php endwhile; ?>
-            <button class="button">show me another</button>
+            <button class="button_dark">Show Me Another</button>
 			
 
 		<?php else : ?>
