@@ -53,3 +53,4 @@ function show_post($query)
     }
 }
 add_action('pre_get_posts', 'show_post');
+
