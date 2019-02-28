@@ -7,6 +7,8 @@
  */
 
 get_header(); ?>
+<?php while ( have_posts() ) : the_post(); ?>
+
 <h1>Archives:</h1>
 <h2>Quote Authors</h2>
 <?php
@@ -35,6 +37,12 @@ get_header(); ?>
 
 		<h2>Tags</h2>
 		
+		<?php endwhile; // End of the loop. ?>
+
+</main><!-- #main -->
+</div><!-- #primary -->
+
+<?php get_footer(); ?>
 
 	
 
