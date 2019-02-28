@@ -52,5 +52,5 @@ function show_post($query)
         return;
     }
 }
-add_action('pre_get_posts', 'show_post');
+ add_action('pre_get_posts', 'show_post');
 

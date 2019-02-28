@@ -1,38 +1,28 @@
 <?php
 /**
- * The template for displaying archive pages.
+ * The template for displaying all pages.
  *
  * @package QOD_Starter_Theme
  */
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-				?>
-			</header><!-- .page-header -->
-
-			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php
-					get_template_part( 'template-parts/content' );
-				?>
+	  
+	<h2>About</h2>
+	<div class="about-info">
+		<p>Quotes on Dev is a project site for the RED Academy Web Developer Professional program. It’s used to experiment with Ajax, WP API, jQuery, and other cool things. 🙂</p>
+</div>
 
-			<?php endwhile; ?>
+<div class="quotes-on-design">
+<p>This site is heavily inspired by Chris Coyier’s <a href="http://quotesondesign.com/" target="_blank" rel="noopener">Quotes on Design</a></p>
+</div>
 
-			<?php the_posts_navigation(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php endif; ?>
+			<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

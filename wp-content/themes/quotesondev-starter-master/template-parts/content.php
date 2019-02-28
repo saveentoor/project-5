@@ -10,12 +10,21 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-	<div class="entry-content">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-content -->
+	<div class="entry-content" id="entry-content">
+		<?php  ?>
+	</div>
+
+	<div class="entry-author" id="entry-author">
+		
+		<?php ?>
+	</div>
+
+	<div class="entry-source" id="entry-source">
+		<?php ?>
+	</div>
 
 	<header class="entry-header">
-		- <?php the_title(); ?>
-	</header><!-- .entry-header -->
+		 <?php  ?>
+	</header>
 
-</article><!-- #post-## -->
+</article>
