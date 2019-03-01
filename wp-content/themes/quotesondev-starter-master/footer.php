@@ -19,7 +19,7 @@
 
 				</div><!-- .site-info -->
 
-				
+				<p> Brought to you by <a href="http://www.redacademy.com/">RED Academy</a></p>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 

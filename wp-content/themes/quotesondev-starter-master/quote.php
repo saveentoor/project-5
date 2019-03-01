@@ -15,7 +15,8 @@ get_header(); ?>
 
 	<div class="submit-quote">
         <h2>Submit a Quote</h2>
-        <p>Sorry, you must be logged in to submit a quote!</p>
+		<p>Sorry, you must be logged in to submit a quote!</p>
+		<p><a href="https://quotes.academy.red/wp-login.php">Click here to login.</a></p>
         
     </div>
 

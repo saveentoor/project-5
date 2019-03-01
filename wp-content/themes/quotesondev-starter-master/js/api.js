@@ -34,7 +34,7 @@
      history.pushState(null, null, url);
     });
   });
-  // })(jQuery);
+
 
   $('#form').on('submit', function(event) {
     event.preventDefault();
