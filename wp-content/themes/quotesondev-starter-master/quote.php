@@ -19,8 +19,6 @@ get_header(); ?>
         
     </div>
 
-    
-
 
 			<?php endwhile; ?>
 
