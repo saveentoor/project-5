@@ -12,6 +12,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+
 
 	<?php wp_head(); ?>
 	</head>
@@ -29,7 +31,14 @@
 				<div class="logo-img">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/qod-logo.svg" alt="quotes on dev logo">
 				</div>
+
+
+				
 				
 			</header><!-- #masthead -->
+		
 
 			<div id="content" class="site-content">
+			<div class="left-quote">
+				<i class="fas fa-quote-left"><span class="network-name"></span></i>
+</div> 

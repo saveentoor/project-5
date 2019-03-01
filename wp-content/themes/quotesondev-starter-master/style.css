@@ -617,7 +617,7 @@ object {
 /* All Archives Page */
 /* Submit a Quote Page */
 .button_dark {
-  background: black;
+  background: #222;
   color: #0c0;
   border: 2px solid #0c0;
   font-weight: 700;
@@ -628,6 +628,42 @@ object {
 .site-content {
   font-size: 1.25rem; }
 
+@media (min-width: 1080px) {
+  .button_dark {
+    margin: 0 auto;
+    font-size: 1.25rem; } }
+
 body {
   background: #222;
   color: white; }
+
+.logo-img {
+  display: block;
+  width: 300px; }
+
+@media (min-width: 1080px) {
+  i.fa-quote-left {
+    font-weight: 900;
+    color: #0c0;
+    font-size: 125px; }
+  .site-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  html {
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 2.5%; }
+  .logo-img {
+    margin: 0 auto;
+    width: 700px; } }
+
+@media (min-width: 1080px) {
+  i.fa-quote-right {
+    font-weight: 900;
+    color: #0c0;
+    font-size: 125px; } }

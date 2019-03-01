@@ -6,8 +6,11 @@
  */
 
 ?>
-
+<div class="right-quote">
+<i class="fas fa-quote-right"><span class="network-name"></span></i>
+</div>
 			</div><!-- #content -->
+			
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">

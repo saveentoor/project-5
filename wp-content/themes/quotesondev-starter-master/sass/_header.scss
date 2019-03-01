@@ -7,3 +7,23 @@ body {
   display: block;
   width: 300px;
 }
+@media (min-width: 1080px) {
+i.fa-quote-left{
+  font-weight: 900;
+  color: #0c0;
+  font-size: 125px
+}    
+.site-content {
+  display: flex;
+  flex-direction: row;
+}
+html{
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 2.5%
+}
+.logo-img {
+  margin: 0 auto;
+  width: 700px
+}
+}

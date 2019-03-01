@@ -1,5 +1,5 @@
 .button_dark {
-  background: black;
+  background: #222;
   color: #0c0; 
   border: 2px solid #0c0;
   font-weight: 700;
@@ -11,6 +11,10 @@
 .site-content{
   font-size: 1.25rem;
 }
-
-
-    
+ 
+@media (min-width: 1080px) {
+  .button_dark{
+margin: 0 auto;
+font-size: 1.25rem;
+}
+}
