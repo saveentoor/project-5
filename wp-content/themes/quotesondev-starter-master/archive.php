@@ -7,9 +7,9 @@
  */
 
 get_header(); ?>
-<?php while ( have_posts() ) : the_post(); ?>
+        <?php while ( have_posts() ) : the_post(); ?>
 
-<?php
+        <?php
         $the_query = new WP_Query(array(
             'post_type'      => 'post',
             'orderby'        => 'title',
@@ -36,10 +36,10 @@ get_header(); ?>
 	<?php wp_tag_cloud(array('tags')); ?>
 </div>
 
-		<?php endwhile; // End of the loop. ?>
+	<?php endwhile; ?>
 
-</main><!-- #main -->
-</div><!-- #primary -->
+</main>
+</div>
 
 <?php get_footer(); ?>
 

@@ -17,4 +17,32 @@
 
     });
   });
+// })(jQuery);
+
+$('#form').on('submit', function(event) {
+  event.preventDefault();
+
+  const info = {
+    title: $('#author').val(),
+    content: $('#quote').val(),
+    _qod_quote_source: $('#source').val(),
+    _qod_quote_source_url: $('#url').val(),
+
+  };
+  $.ajax({
+    method: 'post',
+    url: qod_vars.rest_url + 'wp/v2/posts/',
+    data: info,
+    success: function(responses) {
+      console.log('success');
+
+    },
+    beforeSend: function(xhr) {
+      xhr.setRequestHeader('X-WP-Nonce', qod_vars.wpapi_nonce);
+    }
+  }).done(function(){
+    console.log('done');
+  })
+});
 })(jQuery);
+  

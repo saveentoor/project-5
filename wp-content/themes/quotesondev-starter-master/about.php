@@ -1,6 +1,7 @@
 <?php
 /**
  * The template for displaying all pages.
+ *  * Template Name: About
 
  *
  * @package QOD_Starter_Theme
@@ -23,9 +24,9 @@ get_header(); ?>
 <p>This site is heavily inspired by Chris Coyier’s <a href="http://quotesondesign.com/" target="_blank" rel="noopener">Quotes on Design</a></p>
 </div>
 
-			<?php endwhile; // End of the loop. ?>
+			<?php endwhile; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+		</main>
+	</div>
 
 <?php get_footer(); ?>
