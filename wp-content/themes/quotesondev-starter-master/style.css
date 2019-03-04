@@ -641,8 +641,15 @@ body {
   display: block;
   width: 300px; }
 
+i.fa-quote-left {
+  display: none; }
+
 @media (min-width: 1080px) {
   i.fa-quote-left {
+    font-weight: 900;
+    color: #0c0;
+    font-size: 125px; }
+  i.fa-quote-right {
     font-weight: 900;
     color: #0c0;
     font-size: 125px; }
@@ -662,8 +669,35 @@ body {
     margin: 0 auto;
     width: 700px; } }
 
+i.fa-quote-right {
+  display: none; }
+
+.site-footer a {
+  margin-right: 20px; }
+
 @media (min-width: 1080px) {
   i.fa-quote-right {
     font-weight: 900;
     color: #0c0;
     font-size: 125px; } }
+
+@media (min-width: 1080px) {
+  ul {
+    list-style: none; }
+  .site-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .list-all-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 14px; } }

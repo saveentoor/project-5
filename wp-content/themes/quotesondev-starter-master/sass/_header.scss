@@ -1,14 +1,21 @@
 body {
   background: #222;
-  //   background-image: url('../../project-05/assets/qod-logo.svg');
   color: white;
 }
 .logo-img {
   display: block;
   width: 300px;
 }
+i.fa-quote-left{
+  display: none;
+}
 @media (min-width: 1080px) {
 i.fa-quote-left{
+  font-weight: 900;
+  color: #0c0;
+  font-size: 125px
+}    
+i.fa-quote-right{
   font-weight: 900;
   color: #0c0;
   font-size: 125px
@@ -26,4 +33,5 @@ html{
   margin: 0 auto;
   width: 700px
 }
+
 }

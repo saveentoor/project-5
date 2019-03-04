@@ -1,0 +1,19 @@
+
+
+@media (min-width: 1080px) {
+    ul{
+      list-style: none;
+    }
+    .site-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .list-all-tags{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+}
+
+
+

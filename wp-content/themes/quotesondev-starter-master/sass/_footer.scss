@@ -1,8 +1,16 @@
+i.fa-quote-right{
+  display: none;
+}
+.site-footer{
+  a{
+    margin-right: 20px;
+  }
+}
+
 @media (min-width: 1080px) {
     i.fa-quote-right{
       font-weight: 900;
       color: #0c0;
       font-size: 125px
-      
-    
-    }  }  
+    }  
+  }  

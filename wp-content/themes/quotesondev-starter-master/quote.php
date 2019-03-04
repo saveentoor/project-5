@@ -17,8 +17,9 @@ get_header(); ?>
         <h2>Submit a Quote</h2>
 		<p>Sorry, you must be logged in to submit a quote!</p>
 		<p><a href="https://quotes.academy.red/wp-login.php">Click here to login.</a></p>
-        
-    </div>
+	</div>
+	
+	
 
 
 			<?php endwhile; ?>
