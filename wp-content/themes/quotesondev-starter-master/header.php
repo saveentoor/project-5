@@ -40,6 +40,6 @@
 
 			<div id="content" class="site-content">
 			<div class="left-quote">
-				<i class="fas fa-quote-left"><span class="network-name"></span></i>
+				<i class="fas fa-quote-left quote-logo"><span class="network-name"></span></i>
 </div> 
 

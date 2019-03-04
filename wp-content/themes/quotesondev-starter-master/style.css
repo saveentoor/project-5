@@ -633,55 +633,31 @@ object {
     margin: 0 auto;
     font-size: 1.25rem; } }
 
-body {
-  background: #222;
-  color: white; }
-
-.logo-img {
-  display: block;
-  width: 300px; }
-
-i.fa-quote-left {
-  display: none; }
-
-@media (min-width: 1080px) {
-  i.fa-quote-left {
-    font-weight: 900;
-    color: #0c0;
-    font-size: 125px; }
-  i.fa-quote-right {
-    font-weight: 900;
-    color: #0c0;
-    font-size: 125px; }
-  .site-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row; }
-  html {
-    margin: 0 auto;
-    max-width: 1080px;
-    padding: 2.5%; }
-  .logo-img {
-    margin: 0 auto;
-    width: 700px; } }
-
-i.fa-quote-right {
+.quote-logo {
   display: none; }
 
 .site-footer a {
   margin-right: 20px; }
 
 @media (min-width: 1080px) {
-  i.fa-quote-right {
+  .quote-logo {
+    display: block;
     font-weight: 900;
     color: #0c0;
     font-size: 125px; } }
 
-@media (min-width: 1080px) {
+@media (min-width: 620px) {
+  .list-all-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 14px; } }
+
+@media (min-width: 620px) and (min-width: 1080px) {
   ul {
     list-style: none; }
   .site-content {
@@ -701,3 +677,49 @@ i.fa-quote-right {
         -ms-flex-direction: column;
             flex-direction: column;
     font-size: 14px; } }
+
+body {
+  background: #222;
+  color: white; }
+
+.logo-img {
+  display: block;
+  width: 300px; }
+
+.quote-logo {
+  display: none; }
+
+@media (min-width: 1080px) {
+  .quote-logo {
+    font-weight: 900;
+    color: #0c0;
+    font-size: 125px;
+    display: block;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .site-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .site-content .left-quote {
+      display: inline-block;
+      width: 20%; }
+    .site-content .content-area {
+      width: 50%; }
+    .site-content .right-quote {
+      display: inline-block;
+      width: 20%; }
+  html {
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 2.5%; }
+  .logo-img {
+    margin: 0 auto;
+    width: 700px; } }

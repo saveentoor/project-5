@@ -7,7 +7,7 @@
 
 ?>
 <div class="right-quote">
-<i class="fas fa-quote-right"><span class="network-name"></span></i>
+<i class="fas fa-quote-right quote-logo"><span class="network-name"></span></i>
 </div>
 			</div><!-- #content -->
 			

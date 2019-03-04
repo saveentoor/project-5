@@ -1,4 +1,9 @@
-
+@media (min-width: 620px) {
+    .list-all-tags{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
 
 @media (min-width: 1080px) {
     ul{
@@ -14,6 +19,6 @@
         font-size: 14px;
     }
 }
-
+}
 
 
